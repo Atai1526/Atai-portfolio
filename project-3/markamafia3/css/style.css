@@ -1,0 +1,237 @@
+*{ padding: 0; margin: 0; box-sizing: border-box; }
+		html, body{ padding: 0; margin: 0; }
+		h1, h2, h3, h4, h5, h6{ padding: 0; margin: 0; }
+		div, p{ padding: 0; margin: 0; }
+
+a{
+	text-decoration: none;
+}
+body{ 
+	font-family: sans-serif;
+	padding-top: 750px;
+}
+
+.wrapper{
+	width: 1088px;
+	margin: 0 auto;
+}
+
+.header{ 
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 93px;
+	z-index: 4;
+	background: #fff;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header .wrapper{
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+		font-size: 28px;
+		color: #17bed2;
+		font-weight: 600;
+		text-transform: lowercase;
+		letter-spacing: 1.2px;
+}
+.logo span{
+		color: #5a5d61;
+	}
+	
+.menu{
+	display: flex;
+	list-style: none;
+}
+
+.menu>li{
+	position: relative;
+}
+.submen{
+	list-style: none;
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	background: white;
+	padding:10px;
+	color: white;
+	display: none;
+
+}
+
+.menu>li:hover .submen{
+	display: block;
+	box-sizing: 
+}
+.menu>li>a{ 
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-left: 40px;
+	color: #515769;
+	line-height: 18px;
+
+
+	}
+.black .menu-items p{ 
+	color: #fff;
+}
+.white .menu-items p{
+	color: #000;
+}
+
+.slider{ 
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 800px;
+	background-image: url(../img/phoneinthehand.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.slider2{ 
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 800px;
+	padding-top: 330px;
+	z-index: 3;
+	background: rgba(24, 14, 14, .5);
+}
+
+.slider2 h2{ 
+	font-size: 40px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.slider2 p{ 
+	width: 55%;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 20px 0 28px 0;
+	color: #fff;
+}
+.slider2-button{ 
+	font-size: 14px;
+	font-weight: 400;
+	padding: 10px 40px;
+	color: #fff;
+	border: 2px solid #fff;
+	text-transform: uppercase;
+	background-color: transparent;
+	display: inline-block;
+}
+.slider2-button:hover{
+	background-color: #fff;
+	color: #000;
+	transition: 0.3s;
+}
+
+
+
+.block-1{ 
+	margin: 0 auto;
+	padding: 100px 0;
+}
+.block-1 .wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.item{
+	width: 340px;
+	height: 400px;
+	text-align: left;
+}
+
+.item h2{
+	font-size: 26px;
+	font-weight: 700;
+	color: #515769;
+	margin-bottom: 15px;
+}
+.item p{ 
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 21px;
+	color: #a6a7aa;
+	margin-bottom: 15px;
+}
+.item img{ 
+	width: 340px;
+	height: 240px;
+}
+
+.block-2{ 
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+.block-2-title{ 
+	font-size: 30px;
+	color: #515769;
+	line-height: 1.4;
+	margin-bottom: 15px;
+}
+.block-2-text{ 
+	font-size: 15px;
+	font-weight: 400;
+	color: #a6a7aa;
+	margin-bottom: 15px;
+	width: 64%;
+}
+
+.block-2-items{
+	width: inherit;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.block-2 .item{
+	width: 340px;
+}
+.imgcont{ 
+	position: relative;
+	width: 340px;
+	height: 200px;
+}
+.imgcont img{
+	width: 340px;
+	height: 200px;
+}
+.imgcont p1{ 
+	margin: 0;
+	font-size: 14px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #fff;
+	background-color: #17bed2;
+	padding: 4px 10px;
+}
+.block-2 .item h3{
+	font-size: 22px;
+	font-weight: 700;
+	color: #515769;
+	margin: 14px 0 10px 0;
+}
+.block-2 .item p{ 
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 21px; 
+	color: #a6a7aa;
+	margin-bottom: 15px;
+}
+
+
+
+

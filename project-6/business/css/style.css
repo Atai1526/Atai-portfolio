@@ -1,0 +1,53 @@
+.navbar
+{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.container-fluid
+{
+	padding: 0 0 30px 0;
+}
+.modern
+{
+	margin-top: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom:  1px solid #f1eded;
+	font-weight: bold; 
+}
+.panel-title
+{
+	font-weight: bold;
+}
+.btn
+{
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+.glyphicon 
+{
+	padding-right: 10px;
+}
+.thumbnail
+{
+	border: none;
+}
+.well-btn
+{
+	margin: 0;
+}
+.footer
+{  
+	padding-bottom: 27px;
+	margin-bottom: 30px;
+	border-top: 1px solid #f1eded;
+	padding-top: 54px;
+}
+a
+{
+	color: #000;
+}
+a:focus, a:hover {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;

@@ -1,0 +1,226 @@
+
+.bg{
+	background-image: url(../img/header-bg.jpg);
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+ .header{
+ 	align-items: center;
+ 	position: absolute;
+ 	top: 240px;
+ 	left: 520px;
+ }
+ h1{
+ 	font-size: 85px;
+ 	color: white;
+ }
+ .header p{
+ 	color: white;
+ 	font-size: 22px;
+ 	text-align: center;
+ }
+ .text{
+ 	margin-left: 184px;
+ 	font-size: 20px;
+ 	line-height: 15px;
+ 	font-weight: normal;
+ 	color:#3A4F52;
+ 	text-transform:capitalize;  
+
+ }
+.main .wrap .sub{
+	width: 350px;
+	height: 290px;
+	overflow: hidden;
+	transition: 1s;
+	position: relative;
+		margin-bottom: 100px;
+}
+.sub img{
+	width: inherit;
+	height: inherit;
+	overflow: hidden;
+	transition: 1s;
+
+}
+.main .wrap{
+	display: flex;
+	width: 1150px;
+	margin:0 auto;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+.main .wrap .sub:hover img{
+	transition: 1s;
+	transform: scale(1.2);
+	cursor: pointer;
+	overflow: hidden;
+}
+.back{
+	background-image: url(../img/traffic.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+.wrapper{
+	width: 1200px;
+	margin:0 auto;
+}
+.boom{
+	text-align: center;
+	padding-top: 60px;
+	font-size: 30px;
+	color: white;
+	line-height: 15px;
+}
+.boom p{
+	font-size: 15px;
+}
+
+.contain p{
+	font-size: 16px;
+	color: white;
+	width: 280px;
+}
+.contain i{
+	font-size: 100px;
+	color: white;
+}
+.contain{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	justify-content: space-around;
+}
+.box{
+	width: 1200px;
+	margin: 0 auto;
+}
+.glav{
+	display: flex;
+	justify-content: space-around;
+}
+.photo p{
+	width: 366px;
+}
+.photo a {
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+
+}
+.photo img{
+	width: 360px;
+	height: 216px;
+	display: inline-block;
+	
+}
+.box .text {
+	margin-left: 0;
+}
+.cut{
+	background-image: url(../img/blue_mac2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 400px;
+}
+.cutpop{
+	width: 1040px;
+	margin:0 auto;
+}
+.cut p{
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	padding-top:100px;
+}
+.cut button{
+	font-size: 20px;
+	padding: 20px 25px;
+	background:none;
+	color: white;
+	border: 1px solid white;
+	text-align: center;
+	align-items: center;
+	margin-left: 417px;
+
+}
+.cut button:hover{
+	background:white;
+	color: #558A90;
+	transition: 1s;
+}
+.vse{
+	display: flex;
+	justify-content: space-between;
+	width: 1140px;
+	margin:0 auto;
+	margin-bottom:100px;
+}
+.fotka p{
+	width: 327px;
+	margin:0 auto;
+	
+}
+.first h5{
+	font-size: 35px;
+}
+.first{
+	text-align: center;
+	line-height: 3px;
+	margin-bottom: 100px;
+}
+.fotka img{
+	border-radius: 50%;
+}
+.fotka{
+	display: inline-block;
+	width: 400px;
+	height: 300px;
+	text-align: center;
+}
+.end{
+	background-image: url(../img/newsletter-bg.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	background-color: #405162;
+}
+.plus{
+	padding-top: 50px;
+}
+.endless{
+	margin:0 auto;
+	width: 900px;
+	text-align: center;
+}
+.endless h1{
+	color:white;
+	font-size: 30px;
+}
+.endless p{
+	color: white;
+	font-size: 15px;
+}
+.push {
+	margin:0 auto;
+}
+input{
+	background:none;
+	color: white;
+	border: 1px solid white;
+	display: block;
+	padding:10px 100px;
+	margin:0 auto;
+}
+input:nth-child(4){
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 15px;
+}
